@@ -1,0 +1,37 @@
+@charset "UTF -08";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .conteine1{
+    display: flex;
+} */
+
+.coteine{
+    display: inline-block;
+    width: 500px;
+    border: 2px solid black;
+}
+
+header{
+   background-color: black;
+   padding: 20px;
+}
+
+h1{
+    color: white;
+}
+
+/* rodape */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer > p > a{
+    color: white;
+    text-decoration: none;
+}
