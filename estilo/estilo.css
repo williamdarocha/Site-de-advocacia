@@ -185,7 +185,7 @@ h1{
 }
 #faq > div >p{
     margin-left: 20px;
-    width: 50%;
+    width: 80%;
     padding: 20px 0px;
     font-size: 20px;
 }
@@ -194,8 +194,7 @@ h1{
     background-color: black;
     color: white;
     cursor: pointer;
-    padding: 18;
-    width: 100%;
+    width: 95%;
     text-align: left;
     border: none;
     outline: none;
@@ -218,7 +217,7 @@ h1{
     display: none;
     color: rgb(255, 255, 255);
     overflow: hidden;
-    width: 100%;
+    width: 90%;
 }
 
 /* contato e duvidas */
