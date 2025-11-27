@@ -5,15 +5,7 @@
     padding: 0px;
 }
 
-/* .conteine1{
-    display: flex;
-} */
-
-.coteine{
-    display: inline-block;
-    width: 500px;
-    border: 2px solid black;
-}
+ /* cabeçalho  */
 
 header{
    background-color: black;
@@ -22,6 +14,44 @@ header{
 
 h1{
     color: white;
+}
+/* conteudo */
+.conteine{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.conteine > div{
+    display: inline-block;
+    width: 500px;
+}
+
+.conteine > div > img{
+    max-width: 100%;
+}
+
+h2{
+    margin: 20px 0px;
+}
+
+p{
+    margin-right: 15px;
+} 
+
+#fundo_preto{
+    background-color: black;
+    color: white;
+    padding-bottom: 10px;
+}
+#fundo_preto > div > img{
+    margin-top: 20px;
+    
+    
+}
+#fundo_preto > div p,h2{
+    margin-left: 30px;
 }
 
 /* rodape */

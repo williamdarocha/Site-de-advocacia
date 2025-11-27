@@ -80,6 +80,9 @@ header > div > img{
 
 /* home efeito paralax */
 #home{
+    display:flex;
+    justify-content:center;
+    align-items:center;
     background-image: url(../imagem/estatua2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -91,8 +94,6 @@ header > div > img{
 }
 
 h1{
-    position: relative;
-    top: 38%;
     color: white;
     margin: 0px 20px;
     font-family: "Libre Baskerville", serif;
@@ -106,7 +107,6 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
     padding: 50px 0px;
-    max-width: 1600px;
     text-align: center;
     background-color: black;
     color: white;
@@ -132,16 +132,18 @@ h1{
 
 #sobre > div > img{
     border-radius: 5px;
+    max-width: 100%;
 }
 
 #sobre > div > p > a{
-    color: white;
+    color: wheat;
     text-decoration: none;
 }
 
 #sobre > div > p > a:hover{
     text-decoration: underline;
-    color: wheat;
+    font-style: italic;
+    
 }   
 
 /* area serviços */
@@ -185,7 +187,7 @@ h1{
 }
 #faq > div >p{
     margin-left: 20px;
-    width: 80%;
+    width: 90%;
     padding: 20px 0px;
     font-size: 20px;
 }
