@@ -19,7 +19,7 @@ hr{
 h2{
     font-family: "Libre Baskerville", serif;
     font-size: 30px;
-    margin-left: 5px;
+    margin-left: 12px;
 }
 
 /* menu do site */
@@ -107,9 +107,9 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
     padding: 50px 0px;
-    text-align: center;
     background-color: black;
     color: white;
+    text-align: justify;
    
   
 }
@@ -261,21 +261,21 @@ h1{
 }
 
 .btn{
-    background-color:rgb(73, 112, 0) ;
+    background-color:rgb(0, 0, 0) ;
     color: white;
     padding: 8px;
     font-size: 15px;
     border-radius: 5px;
-    border-color: rgb(73, 112, 0);
+    border:none;
 }
 
 .btn2{
-    background-color:rgb(211, 22, 22) ;
-    color: white;
+    background-color:rgb(255, 255, 255) ;
+    color: rgb(0, 0, 0);
     padding: 8px;
     font-size: 15px;
     border-radius: 5px;
-    border-color: rgb(211, 22, 22);
+    border-color: rgb(0, 0, 0);
 }
 
 /* rodape do site */
