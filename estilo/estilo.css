@@ -115,6 +115,7 @@ h1{
 }
 #sobre > div > p{
     text-align: justify;
+    margin-left: 12px;
 }
 
 .infor{
